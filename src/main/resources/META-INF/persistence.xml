@@ -5,7 +5,7 @@
              version="3.0">
     <persistence-unit name="primary">
        <jta-data-source>java:/MySqlDS</jta-data-source>
-        <class>com.example.jakartalab.entity.Animal</class>
+        <class>com.example.jakartalab.animal.Animal</class>
         <properties>
            <property name="hibernate.hbm2ddl.auto" value="create"></property>
         </properties>

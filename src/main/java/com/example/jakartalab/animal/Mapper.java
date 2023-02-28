@@ -1,8 +1,8 @@
-package com.example.jakartalab.mapper;
+package com.example.jakartalab.animal;
 
 
-import com.example.jakartalab.dto.AnimalDto;
-import com.example.jakartalab.entity.Animal;
+import com.example.jakartalab.animal.AnimalDto;
+import com.example.jakartalab.animal.Animal;
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.List;

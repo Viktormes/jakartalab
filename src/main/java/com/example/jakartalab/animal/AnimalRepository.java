@@ -1,6 +1,6 @@
-package com.example.jakartalab.repository;
+package com.example.jakartalab.animal;
 
-import com.example.jakartalab.entity.Animal;
+import com.example.jakartalab.animal.Animal;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;

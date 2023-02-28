@@ -1,6 +1,6 @@
-package com.example.jakartalab.servlet;
+package com.example.jakartalab.animal;
 
-import com.example.jakartalab.repository.AnimalRepository;
+import com.example.jakartalab.animal.AnimalRepository;
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

@@ -1,6 +1,4 @@
-package com.example.jakartalab.dto;
-
-import com.example.jakartalab.entity.Animal;
+package com.example.jakartalab.animal;
 
 public class AnimalDto {
     private Long id;
