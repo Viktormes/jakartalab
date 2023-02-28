@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="add files and classes">
+    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="add fields to Animal and AnimalDto. Add getters and setters to Animal and AnimalDto.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/RestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/dto/AnimalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/dto/AnimalDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/controller/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/controller/AnimalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/entity/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/entity/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677493457855</updated>
-      <workItem from="1677493458985" duration="11421000" />
+      <workItem from="1677493458985" duration="13140000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1677501946980</created>
@@ -165,7 +167,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1677573471836</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="add fields to Animal and AnimalDto. Add getters and setters to Animal and AnimalDto.">
+      <created>1677576187249</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1677576187249</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="add files and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files and classes" />
+    <MESSAGE value="add fields to Animal and AnimalDto. Add getters and setters to Animal and AnimalDto." />
+    <option name="LAST_COMMIT_MESSAGE" value="add fields to Animal and AnimalDto. Add getters and setters to Animal and AnimalDto." />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.example.jakartalab;
+package com.example.jakartalab.servlet;
 
 import java.io.*;
 

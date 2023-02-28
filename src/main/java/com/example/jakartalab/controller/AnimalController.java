@@ -5,7 +5,7 @@ import com.example.jakartalab.repository.AnimalRepository;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.Path;
 
-//@Path("/foods")
+//@Path("/animals")
 public class AnimalController {
     @Inject
     AnimalRepository animalRepository;
