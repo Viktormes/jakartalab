@@ -1,7 +1,5 @@
 package com.example.jakartalab.servlet;
 
-
-
 import com.example.jakartalab.repository.AnimalRepository;
 import jakarta.inject.Inject;
 import jakarta.servlet.ServletException;
