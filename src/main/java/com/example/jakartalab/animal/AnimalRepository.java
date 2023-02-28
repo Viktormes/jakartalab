@@ -1,6 +1,5 @@
 package com.example.jakartalab.animal;
 
-import com.example.jakartalab.animal.Animal;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -36,5 +35,11 @@ public class AnimalRepository {
         var food = findOne(id);
         food.ifPresent((f)-> entityManager.remove(f));
 
+    }
+
+    public List<Animal> findAllByName(String name) {
+        var query = entityManager.createQuery("select a from Animal a where a.name like :name");
+        query.setParameter("Name", name);
+        return(List<Animal>) query.getResultList();
     }
 }
