@@ -1,8 +1,7 @@
 package com.example.jakartalab.animal;
 
 
-import com.example.jakartalab.animal.AnimalDto;
-import com.example.jakartalab.animal.Animal;
+
 import jakarta.enterprise.context.ApplicationScoped;
 
 import java.util.List;

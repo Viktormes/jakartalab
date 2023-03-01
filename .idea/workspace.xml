@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="Refactor maps. Add Resources class.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalValidator.java" afterDir="false" />
+    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="add code in mapper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Mapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RESET_MODE" value="HARD" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">

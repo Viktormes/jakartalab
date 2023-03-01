@@ -27,13 +27,13 @@ public class AnimalRepository {
 
     }
 
-    public void insertFood(Animal animal){
+    public void addAnimal(Animal animal){
         entityManager.persist(animal);
 
     }
-    public void deleteFood(Long id){
-        var food = findOne(id);
-        food.ifPresent((f)-> entityManager.remove(f));
+    public void removeAnimal(Long id){
+        var animal = findOne(id);
+        animal.ifPresent((a)-> entityManager.remove(a));
 
     }
 
@@ -41,5 +41,14 @@ public class AnimalRepository {
         var query = entityManager.createQuery("select a from Animal a where a.name like :name");
         query.setParameter("Name", name);
         return(List<Animal>) query.getResultList();
+    }
+    public Animal update(Long id, Animal animal){
+        var entity = entityManager.find(Animal.class, id);
+        entity.setRace(animal.getRace());
+        entity.setName(animal.getName());
+        entity.setColor(animal.getColor());
+        return entity;
+
+
     }
 }
