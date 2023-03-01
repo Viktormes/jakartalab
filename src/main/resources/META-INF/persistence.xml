@@ -7,7 +7,7 @@
        <jta-data-source>java:/MySqlDS</jta-data-source>
         <class>com.example.jakartalab.animal.Animal</class>
         <properties>
-           <property name="hibernate.hbm2ddl.auto" value="create"></property>
+           <property name="hibernate.hbm2ddl.auto" value="update"></property>
         </properties>
     </persistence-unit>
 </persistence>

@@ -36,7 +36,7 @@ public class AnimalController {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response add(@Valid Animal animal){
+    public Response addOne(@Valid Animal animal){
         animalRepository.addAnimal(animal);
         return Response.created(URI.create("animals/" + animal.getId())).build();
     }
@@ -51,7 +51,7 @@ public class AnimalController {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response upDate(@PathParam("id") Long id, AnimalDto animal) {
-        return Response.ok().entity(mapper.map(animalRepository.update(id, mapper.map(animal)))).build();
+        return Response.ok().entity(mapper.map(animalRepository.update(id,mapper.map(animal)))).build();
     }
 
 }
