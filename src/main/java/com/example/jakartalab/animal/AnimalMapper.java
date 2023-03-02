@@ -7,7 +7,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import java.util.List;
 
 @ApplicationScoped
-public class Mapper {
+public class AnimalMapper {
 
     public List<AnimalDto> map(List<Animal> all){
         return all.stream().map(AnimalDto::new).toList();

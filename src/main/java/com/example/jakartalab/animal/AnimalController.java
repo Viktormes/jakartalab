@@ -15,15 +15,15 @@ public class AnimalController {
     AnimalRepository animalRepository;
 
     @Inject
-    Mapper mapper;
+    AnimalMapper animalMapper;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<AnimalDto> getAll(@QueryParam("name") String name) {
         if (name == null)
-            return mapper.map(animalRepository.findAll());
+            return animalMapper.map(animalRepository.findAll());
 
-        return mapper.map(animalRepository.findAllByName(name));
+        return animalMapper.map(animalRepository.findAllByName(name));
     }
 
     @GET
@@ -36,7 +36,8 @@ public class AnimalController {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response addOne(@Valid Animal animal){
+    public Response addOne(@Valid AnimalDto animalDto){
+        var animal = animalMapper.map(animalDto);
         animalRepository.addAnimal(animal);
         return Response.created(URI.create("animals/" + animal.getId())).build();
     }
@@ -50,8 +51,8 @@ public class AnimalController {
     @Path("/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response upDate(@PathParam("id") Long id, AnimalDto animal) {
-        return Response.ok().entity(mapper.map(animalRepository.update(id,mapper.map(animal)))).build();
+    public Response update(@PathParam("id") Long id, AnimalDto animal) {
+        return Response.ok().entity(animalMapper.map(animalRepository.update(id, animalMapper.map(animal)))).build();
     }
 
 }
