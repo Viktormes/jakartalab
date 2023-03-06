@@ -1,5 +1,6 @@
 package com.example.jakartalab.animal;
 
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;

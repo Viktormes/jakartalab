@@ -14,13 +14,13 @@ public class Animal {
     private Long id;
 
     @NotNull(message = "Species can't be null.")
-    @Size(min = 2)
+    @Size(min = 1,max = 50)
     String species;
     @NotNull(message = "Name can't be null.")
-    @Size(min = 2)
+    @Size(min = 1,max = 50)
     String name;
     @NotNull(message = "Color can't be null.")
-    @Size(min = 2)
+    @Size(min = 1,max = 50)
     String color;
 
     public void setId(Long id) {
