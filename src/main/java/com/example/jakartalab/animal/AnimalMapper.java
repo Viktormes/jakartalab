@@ -1,9 +1,6 @@
 package com.example.jakartalab.animal;
 
-
-
 import jakarta.enterprise.context.ApplicationScoped;
-
 import java.util.List;
 
 @ApplicationScoped
@@ -11,7 +8,6 @@ public class AnimalMapper {
 
     public List<AnimalDto> map(List<Animal> all){
         return all.stream().map(AnimalDto::new).toList();
-
     }
     public Animal map(AnimalDto animal){
         var a = new Animal();

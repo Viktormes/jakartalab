@@ -3,11 +3,11 @@ package com.example.jakartalab.animal;
 public class AnimalDto {
     private Long id;
 
-    private String species;
+    String species;
 
-    private String name;
+    String name;
 
-    private String color;
+    String color;
 
     public AnimalDto(){
 

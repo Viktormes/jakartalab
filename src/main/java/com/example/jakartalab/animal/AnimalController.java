@@ -1,12 +1,10 @@
 package com.example.jakartalab.animal;
 
-import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-
 import java.net.URI;
 import java.util.List;
 
@@ -32,7 +30,10 @@ public class AnimalController {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getOne(@PathParam("id") long id) {
         var animal = animalRepository.findOne(id);
+        if (animal.isPresent())
         return Response.ok().entity(animal.get()).build();
+        else
+            throw new NotFoundException();
     }
 
     @POST
@@ -44,6 +45,7 @@ public class AnimalController {
     }
     @DELETE
     @Path("/{id}")
+  //  @ApiResponse(responseCode = "200",description = "Animal deleted.")
     public Response delete(@PathParam("id") Long id) {
         animalRepository.removeAnimal(id);
         return Response.ok().build();
@@ -55,5 +57,4 @@ public class AnimalController {
     public Response update(@PathParam("id") Long id, AnimalDto animal) {
         return Response.ok().entity(animalMapper.map(animalRepository.update(id, animalMapper.map(animal)))).build();
     }
-
 }

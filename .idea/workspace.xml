@@ -9,13 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="Refactor classes. Remove HelloServlet. edit index.jsp">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/404.html" afterDir="false" />
+    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="Add 404.html. add swagger dependency. Minor fixes to Animal,controller and Dto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +176,7 @@
       <updated>1677493457855</updated>
       <workItem from="1677493458985" duration="13140000" />
       <workItem from="1677585504640" duration="3883000" />
-      <workItem from="1677757595507" duration="16683000" />
+      <workItem from="1677757595507" duration="25440000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1677501946980</created>
@@ -249,7 +250,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1678096273520</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="Add 404.html. add swagger dependency. Minor fixes to Animal,controller and Dto">
+      <created>1678101125735</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1678101125735</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +286,7 @@
     <MESSAGE value="rename mapper," />
     <MESSAGE value="remove validator class." />
     <MESSAGE value="Refactor classes. Remove HelloServlet. edit index.jsp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor classes. Remove HelloServlet. edit index.jsp" />
+    <MESSAGE value="Add 404.html. add swagger dependency. Minor fixes to Animal,controller and Dto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 404.html. add swagger dependency. Minor fixes to Animal,controller and Dto" />
   </component>
 </project>
