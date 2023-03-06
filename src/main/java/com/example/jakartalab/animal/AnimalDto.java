@@ -1,12 +1,19 @@
 package com.example.jakartalab.animal;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 public class AnimalDto {
     private Long id;
 
+    @NotNull(message = "Species can't be null.")
+    @Size(min = 2,max = 50)
     String species;
-
+    @NotNull(message = "Name can't be null.")
+    @Size(min = 2,max = 50)
     String name;
-
+    @NotNull(message = "Color can't be null.")
+    @Size(min = 2,max = 50)
     String color;
 
     public AnimalDto(){

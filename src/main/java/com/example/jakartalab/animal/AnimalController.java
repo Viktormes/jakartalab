@@ -45,7 +45,6 @@ public class AnimalController {
     }
     @DELETE
     @Path("/{id}")
-  //  @ApiResponse(responseCode = "200",description = "Animal deleted.")
     public Response delete(@PathParam("id") Long id) {
         animalRepository.removeAnimal(id);
         return Response.ok().build();
