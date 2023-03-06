@@ -9,9 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="rename mapper,">
+    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="remove validator class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +176,7 @@
       <updated>1677493457855</updated>
       <workItem from="1677493458985" duration="13140000" />
       <workItem from="1677585504640" duration="3883000" />
-      <workItem from="1677757595507" duration="5104000" />
+      <workItem from="1677757595507" duration="12471000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1677501946980</created>
@@ -233,7 +238,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1677764698084</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="remove validator class.">
+      <created>1677765345750</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1677765345750</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +272,7 @@
     <MESSAGE value="minor fixes" />
     <MESSAGE value="add dataSources.xml" />
     <MESSAGE value="rename mapper," />
-    <option name="LAST_COMMIT_MESSAGE" value="rename mapper," />
+    <MESSAGE value="remove validator class." />
+    <option name="LAST_COMMIT_MESSAGE" value="remove validator class." />
   </component>
 </project>

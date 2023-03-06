@@ -3,7 +3,7 @@ package com.example.jakartalab.animal;
 public class AnimalDto {
     private Long id;
 
-    String race;
+    String species;
 
     String name;
 
@@ -14,7 +14,7 @@ public class AnimalDto {
     }
     public AnimalDto(Animal animal){
         this.id = animal.getId();
-        this.race = animal.getRace();
+        this.species = animal.getSpecies();
         this.name = animal.getName();
         this.color = animal.getColor();
 
@@ -28,12 +28,12 @@ public class AnimalDto {
         this.id = id;
     }
 
-    public String getRace() {
-        return race;
+    public String getSpecies() {
+        return species;
     }
 
-    public void setRace(String race) {
-        this.race = race;
+    public void setSpecies(String species) {
+        this.species = species;
     }
 
     public String getName() {

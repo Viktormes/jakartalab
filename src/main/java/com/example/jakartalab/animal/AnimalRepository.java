@@ -44,7 +44,7 @@ public class AnimalRepository {
     }
     public Animal update(Long id, Animal animal){
         var entity = entityManager.find(Animal.class, id);
-        entity.setRace(animal.getRace());
+        entity.setSpecies(animal.getSpecies());
         entity.setName(animal.getName());
         entity.setColor(animal.getColor());
         return entity;

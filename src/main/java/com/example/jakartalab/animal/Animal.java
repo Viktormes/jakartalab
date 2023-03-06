@@ -13,9 +13,9 @@ public class Animal {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull(message = "Race can't be null.")
+    @NotNull(message = "Species can't be null.")
     @Size(min = 2)
-    String race;
+    String species;
     @NotNull(message = "Name can't be null.")
     @Size(min = 2)
     String name;
@@ -31,12 +31,12 @@ public class Animal {
         return id;
     }
 
-    public String getRace() {
-        return race;
+    public String getSpecies() {
+        return species;
     }
 
-    public void setRace(String race) {
-        this.race = race;
+    public void setSpecies(String race) {
+        this.species = race;
     }
 
     public String getName() {

@@ -16,7 +16,7 @@ public class AnimalMapper {
     public Animal map(AnimalDto animal){
         var a = new Animal();
         a.setId(animal.getId());
-        a.setRace(animal.getRace());
+        a.setSpecies(animal.getSpecies());
         a.setName(animal.getName());
         a.setColor(animal.getColor());
 
