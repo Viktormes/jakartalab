@@ -9,9 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="refactor">
+    <list default="true" id="55594e64-c1c6-404c-b06d-e19b103e4e78" name="Changes" comment="add annotations to AnimalDto. Fix minos issues aswell.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jakartalab/animal/AnimalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,8 @@
       <updated>1677493457855</updated>
       <workItem from="1677493458985" duration="13140000" />
       <workItem from="1677585504640" duration="3883000" />
-      <workItem from="1677757595507" duration="27368000" />
+      <workItem from="1677757595507" duration="28002000" />
+      <workItem from="1678176196698" duration="441000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1677501946980</created>
@@ -257,7 +257,13 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1678111146971</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="add annotations to AnimalDto. Fix minos issues aswell.">
+      <created>1678113156087</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1678113156087</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +295,7 @@
     <MESSAGE value="Refactor classes. Remove HelloServlet. edit index.jsp" />
     <MESSAGE value="Add 404.html. add swagger dependency. Minor fixes to Animal,controller and Dto" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="add annotations to AnimalDto. Fix minos issues aswell." />
+    <option name="LAST_COMMIT_MESSAGE" value="add annotations to AnimalDto. Fix minos issues aswell." />
   </component>
 </project>
